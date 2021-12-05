@@ -216,7 +216,7 @@ if (isset($_POST['issue_stock'])) {
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-primary" name="issue_stock">Issue stock</button>
+                    <button type="submit" class="btn btn-primary" name="issue_stock">Receive stock</button>
                 </form>
 
 
