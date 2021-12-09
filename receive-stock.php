@@ -94,7 +94,8 @@ if (isset($_POST['issue_stock'])) {
 
 </head>
 <body>
-<h1>Nav Bar</h1>
+<br>
+<a href="manage-products.php"><button type="button" class="btn btn-primary" style="margin-left :10px;">Cancel</button></a>
 <hr>
 <div class="container-fluid">
     <div class="col-md-12">
@@ -226,5 +227,13 @@ if (isset($_POST['issue_stock'])) {
 
     </div>
 </div>
+<hr>
+<?php include('include/footer.php'); ?>
+<style>
+    .footer {
+    color: #999;
+    padding: 30px 0 60px;
+}
+</style>
 </body>
 </html>
